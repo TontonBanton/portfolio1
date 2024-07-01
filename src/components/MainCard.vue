@@ -9,25 +9,25 @@
         </div>
         <div class="social-links">
           <div class="link">
-            <a href="">
+            <a href="https://github.com/TontonBanton" target="blank">
               <img src="../assets/github.png" alt="">
               <h2>Github</h2>
             </a>
           </div>
           <div class="link">
-            <a href="">
+            <a href="https://github.com/TontonBanton" target="blank">
               <img src="../assets/linkedin.png" alt="">
               <h2>LinkedIn</h2>
             </a>
           </div>
           <div class="link">
-            <a href="">
+            <a href="https://github.com/TontonBanton" target="blank">
               <img src="../assets/twitter.png" alt="">
               <h2>Twitter</h2>
             </a>
           </div>
           <div class="link">
-            <a href="">
+            <a href="https://github.com/TontonBanton" target="blank">
               <img src="../assets/instagram.png" alt="">
               <h2>Instagram</h2>
             </a>
@@ -90,7 +90,8 @@ export default {
     width: 30%;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    background-color: #7fc5fa;
+    background-color: rgb(36, 157, 238);
+    box-shadow: gray 0px 3px 8px;
   }
   .profile img {
     height: 5rem;
@@ -111,7 +112,8 @@ export default {
     width: 70%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: rgb(106, 185, 238);
+    background-color: #7fc5fa;
+    box-shadow: gray 0px 3px 8px;
   }
 
   .about-me {
@@ -133,10 +135,15 @@ export default {
     border-radius: 15px;
     padding: 5px;
     margin: 5px;
-    background-color: #0291ff;
+    background-color: rgb(36, 157, 238);
   }
   .projects-button a{
     color: black;
     text-decoration: none;
+  }
+  @media only screen and (max-width: 950px) {
+    .main-container{
+      width: 95%;
+    }
   }
 </style>

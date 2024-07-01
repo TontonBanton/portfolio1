@@ -54,7 +54,7 @@ export default {
     justify-content: flex-end;
   }
   .links img {
-    height: 1.5rem;
+    height: 1.3rem;
     margin: 5px;
   }
 </style>
